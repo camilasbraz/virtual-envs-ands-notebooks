@@ -12,13 +12,16 @@ python -m venv venv
 ```
 venv\Scripts\activate
 ```
-
-### 3. Create a kernel that can be used to run jupyter notebook commands inside the virtual environment
+### 3. Install ipython
+```
+pip install ipython
+```
+### 4. Create a kernel that can be used to run jupyter notebook commands inside the virtual environment
 ```
 ipython kernel install --user --name=venv
 ```
 
-### 4. Select the installed kernel when you want to use jupyter notebook in this virtual environment
+### 5. Select the installed kernel when you want to use jupyter notebook in this virtual environment
 In VsCode:
 
 <img width="738" alt="image" src="https://user-images.githubusercontent.com/45129483/209995940-2a44ec16-03fc-45dc-b7f2-ef18819cfe2a.png">
