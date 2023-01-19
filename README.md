@@ -12,9 +12,10 @@ python -m venv venv
 ```
 venv\Scripts\activate
 ```
-### 3. Install ipython
+### 3. Install ipython and ipykernel
 ```
 pip install ipython
+pip install ipykernel
 ```
 ### 4. Create a kernel that can be used to run jupyter notebook commands inside the virtual environment
 ```
